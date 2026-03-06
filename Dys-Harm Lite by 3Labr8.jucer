@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="BtgiVz" name="Dys-Harm Lite by 3Labr8" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1" pluginFormats="buildVST3" pluginCharacteristicsValue="pluginWantsMidiIn=0, pluginProducesMidiOut=0, pluginIsSynth=0, pluginEditorRequiresKeys=0">
+  <MAINGROUP id="EONSP9" name="Dys-Harm Lite by 3Labr8">
+    <GROUP id="{7001000A-0655-324B-3BEB-DDEE50BAF070}" name="Source">
+      <GROUP id="{B914B597-BCE2-34FA-A597-6C8C0CB1A80B}" name="DSP">
+        <FILE id="BndIsC" name="BandIsolator.cpp" compile="1" resource="0"
+              file="Source/DSP/BandIsolator.cpp"/>
+        <FILE id="BndIsH" name="BandIsolator.h" compile="0" resource="0" file="Source/DSP/BandIsolator.h"/>
+        <FILE id="OxUVBN" name="Biquad.cpp" compile="1" resource="0" file="Source/DSP/Biquad.cpp"/>
+        <FILE id="Wt2Hq3" name="Biquad.h" compile="0" resource="0" file="Source/DSP/Biquad.h"/>
+        <FILE id="nlL3eV" name="DCBlocker.cpp" compile="1" resource="0" file="Source/DSP/DCBlocker.cpp"/>
+        <FILE id="SMTF2b" name="DCBlocker.h" compile="0" resource="0" file="Source/DSP/DCBlocker.h"/>
+        <FILE id="PHXEgA" name="DetentPanControl.h" compile="0" resource="0"
+              file="Source/DSP/DetentPanControl.h"/>
+        <FILE id="wohh1F" name="DriveStage.cpp" compile="1" resource="0" file="Source/DSP/DriveStage.cpp"/>
+        <FILE id="sZ0Tno" name="DriveStage.h" compile="0" resource="0" file="Source/DSP/DriveStage.h"/>
+        <FILE id="WvShpC" name="Waveshaper.cpp" compile="1" resource="0" file="Source/DSP/Waveshaper.cpp"/>
+        <FILE id="WvShpH" name="Waveshaper.h" compile="0" resource="0" file="Source/DSP/Waveshaper.h"/>
+        <FILE id="FzdUb0" name="FilterEngine.cpp" compile="1" resource="0"
+              file="Source/DSP/FilterEngine.cpp"/>
+        <FILE id="uD99NM" name="FilterEngine.h" compile="0" resource="0" file="Source/DSP/FilterEngine.h"/>
+        <FILE id="j5KmUr" name="ModularChain.cpp" compile="1" resource="0"
+              file="Source/DSP/ModularChain.cpp"/>
+        <FILE id="AHnKw4" name="ModularChain.h" compile="0" resource="0" file="Source/DSP/ModularChain.h"/>
+        <FILE id="ZJto0d" name="StereoPanner.cpp" compile="1" resource="0"
+              file="Source/DSP/StereoPanner.cpp"/>
+        <FILE id="xkTjFt" name="StereoPanner.h" compile="0" resource="0" file="Source/DSP/StereoPanner.h"/>
+        <FILE id="TexFltC" name="TextureFilter.cpp" compile="1" resource="0"
+              file="Source/DSP/TextureFilter.cpp"/>
+        <FILE id="TexFltH" name="TextureFilter.h" compile="0" resource="0"
+              file="Source/DSP/TextureFilter.h"/>
+        <FILE id="VarSpdC" name="VarispeedPitchShift.cpp" compile="1" resource="0"
+              file="Source/DSP/VarispeedPitchShift.cpp"/>
+        <FILE id="VarSpdH" name="VarispeedPitchShift.h" compile="0" resource="0"
+              file="Source/DSP/VarispeedPitchShift.h"/>
+      </GROUP>
+      <FILE id="DisHarmLnfC" name="DisHarmLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/DisHarmLookAndFeel.cpp"/>
+      <FILE id="DisHarmLnfH" name="DisHarmLookAndFeel.h" compile="0" resource="0"
+            file="Source/DisHarmLookAndFeel.h"/>
+      <FILE id="dhLjiC" name="Main.cpp" compile="0" resource="0" file="Source/Main.cpp"/>
+      <FILE id="HC6R3s" name="MainComponent.cpp" compile="0" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="YJIAkA" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="hIkEgw" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="ZWBcfW" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="Z8kqtd" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="qg8dEf" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Dys-Harm Lite by 3Labr8"
+                       buildVST3="1"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Dys-Harm Lite by 3Labr8"
+                       buildVST3="1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
